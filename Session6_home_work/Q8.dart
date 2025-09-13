@@ -8,7 +8,6 @@ void main() {
     print('Big bonus');
   } else if (bonus <= 50) {
     print('Small bonus');
-  } else if (bonus == null) {
+  } else
     print('Small bonus');
-  }
 }

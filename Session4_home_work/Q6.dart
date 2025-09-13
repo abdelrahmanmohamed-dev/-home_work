@@ -5,7 +5,7 @@
 
 void main() {
   List<int>? Scores = [10, 20, 30];
-  if (Scores == null || Scores.isEmpty) {
+  if (Scores.isEmpty) {
     print('No Scores');
   } else {
     int Sum = Scores.first + Scores.last;
